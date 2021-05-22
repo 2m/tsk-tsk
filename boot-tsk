@@ -14,8 +14,8 @@
 #
 # The TSK versions present on disk are left alone unless the version is trunk (meaning "latest"),
 # in which case this script tries to download the most recent version of itself and of TSK.
-tsk_org="${tsk_org:-tsk-tsk}"
-tsk_version="${v:-${tsk_version:-trunk}}"
+tsk_org="2m"
+tsk_version="fix-scala"
 tsk_log="${TMPDIR:-"/tmp"}/tsk-$$.log"
 tsk_home_dir="${HOME}/.tsk"
 main_tsk_file="${tsk_home_dir}/tsk-${tsk_version}"
